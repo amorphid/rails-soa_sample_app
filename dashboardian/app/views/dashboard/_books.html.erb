@@ -1,0 +1,9 @@
+<h3>Books</h3>
+
+<ul>
+  <% books.each do |book| %>
+    <li>
+      <%= book.fetch("title") %>
+    </li>
+  <% end %>
+</ul>

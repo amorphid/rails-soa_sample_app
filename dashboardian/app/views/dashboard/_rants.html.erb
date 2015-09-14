@@ -1,0 +1,9 @@
+<h3>Rants</h3>
+
+<ul>
+  <% rants.each do |rant| %>
+    <li>
+      <%= rant.fetch("description") %>
+    </li>
+  <% end %>
+</ul>
